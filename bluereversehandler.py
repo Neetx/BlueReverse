@@ -1,7 +1,7 @@
 import socket, subprocess, os, sys
 """
 BLUEREVERSE
-Bluetooth reverse shell actually for x86-64 system.
+Bluetooth reverse shell actually for x86-64 Linux system.
 
 Copyright (C) 2018  Neetx
 

@@ -1,7 +1,7 @@
 BlueReverse
 ===========
 
-Bluetooth reverse shell currently for x86-64 system.<br/>
+Bluetooth reverse shell currently for x86-64 Linux system.<br/>
 
 
 Copyright (C) 2018  Neetx
