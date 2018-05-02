@@ -1,5 +1,8 @@
+; BlueReverse-1.0
+; http://github.com/Neetx/BlueReverse
 ; 82 byte bluetooth reverse shell for linux/x86-64
 ; Neetx
+
 global _start
 section .text
 _start:	

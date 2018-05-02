@@ -22,6 +22,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 CONTACTS:
 	- neetx@protonmail.com
+
+http://github.com/Neetx/BlueReverse
 """
 
 print " ____  _            _____                              "
