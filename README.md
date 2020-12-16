@@ -88,6 +88,17 @@ Put your shellcode in the shellcode_tester.c, compile it and test.
 
 ---
 
+### Server Side
+On the server side you should adapt and use bluereversehandler.py
+
+```
+sudo hciconfig <device> piscan   
+sudo hciconfig <device> noauth   
+python2 bluereversehandler.py
+``` 
+
+An handler update will be released asap.
+
 ### Screenshot
 
 ![alt text](screen.jpg "Example")
