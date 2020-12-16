@@ -41,7 +41,7 @@ dup_loop64:
 	xor rcx,rcx				 ;clean
 	mov cl, 0x03			 ;3 channel, CHANNEL HERE
 	push rcx
-	mov rcx, ~0xXXXXXXXXXXXX001f		;MAC HERE + filler + family(1f=31)
+    mov rcx, ~0xXXXXXXXXXXXX001f        ;MAC HERE + filler + family(1f=31)
 	not rcx
 	push rcx
 
