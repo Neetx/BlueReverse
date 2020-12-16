@@ -1,4 +1,30 @@
 import argparse, binascii, sys, struct
+"""
+BLUEREVERSE
+Bluetooth reverse shell actually for x86-64 Linux system.
+
+Copyright (C) 2020  Neetx
+
+This file is part of bluereverse.
+
+BlueReverse is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+BlueReverse is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+CONTACTS:
+	- neetx@protonmail.com
+
+http://github.com/Neetx/BlueReverse
+"""
 
 def bytes_mac_to_string(mac): #only for human readable output
     return ("\\x%02x\\x%02x\\x%02x\\x%02x\\x%02x\\x%02x" % struct.unpack("BBBBBB", mac))
